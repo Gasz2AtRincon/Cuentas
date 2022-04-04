@@ -123,8 +123,8 @@ public class CCuenta {
      * Decrementa el saldo actual en la cantiodad indicada.
      * 
      * @param cantidad cantidad a retirar. Debe ser mayor que cero.
-     * @throws Exception En caso de que la cantidad indicada sea menor o igual cero,
-     *         Exception En caso de que el saldo sea menor que la cantidad indicada
+     * @throws Exception En caso de que la cantidad indicada sea menor o igual cero.
+     *         También en caso de que el saldo sea menor que la cantidad indicada.
      */
     public void retirar(double cantidad) throws Exception
     {
